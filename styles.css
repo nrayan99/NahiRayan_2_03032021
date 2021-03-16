@@ -1,2 +1,68 @@
+* /* INITIALISATION DE LA POLICE POUR TOUTE LA PAGE */
+{
+    font-family:'Raleway',Arial, Helvetica, sans-serif  ;
+}
+
+
+/* Conteneur du header */
+.container
+{
+    margin-left: 50px;
+    margin-right: 53px;
+}
+
+/* HEADER */
+header
+{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 36px;
+    
+}
+
+header nav ul
+{   
+    width: 447px;
+    padding:0%;
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding-top: 49px;
+    padding-right: 33.5px;
+    padding-left: 33.5px;
+    
+    
+    
+}
+header nav ul li:nth-child(3) a 
+{
+    color: #0065fc;;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+header nav ul li a:hover
+{
+    color: #0065fc;
+    border-top: 3px solid;
+    
+    border-top-color:  #0065fc;
+}
+
+
+
+
 
     
