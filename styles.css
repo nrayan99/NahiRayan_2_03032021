@@ -2,6 +2,8 @@
 {
     
     font-family:'Raleway',Arial, Helvetica, sans-serif  ;
+    margin:0px;
+    padding:0px;
 }
 h1
 {
@@ -22,7 +24,7 @@ header
     display: flex;
     
     justify-content: space-between;
-    margin-top: 36px;
+    margin-top: 49px;
     
 }
 
@@ -40,8 +42,8 @@ header nav ul li a
 {
     text-decoration: none;
     color: black;
-    padding-top: 49px;
-    padding-right: 33.5px;
+    padding-top: 46px;
+    padding-right: 30px;
     padding-left: 33.5px;
     
     
@@ -51,6 +53,7 @@ header nav ul li:nth-child(3) a
 {
     color: #0065fc;;
     font-weight: bold;
+    padding-right: 24px;
     
     
 }
@@ -72,11 +75,11 @@ header nav ul li a:hover
 {
     margin-top: 45px;
 }
-#recherche p:first-of-type
+#precherche1
 {
     margin-top: 14px;
 }
-#recherche h1:first-of-type
+#h1recherche1
 {
     margin-bottom: 0px; ;
 }
@@ -98,10 +101,11 @@ justify-content: center;
 #champ
 {
     display: flex;
+    margin-top: 17px;
 }
 #champ div:nth-of-type(2) input 
 {
-    font-weight: bold;                  /* TEXT */
+    font-weight: bold;                  /* CHAMP TEXT */
     width: 234px;
     height: 48px;
     font-size: 16px;
@@ -114,7 +118,7 @@ justify-content: center;
 #champ div:nth-of-type(3) input
 {
     width: 135px;
-    height: 53px;                       /*BUTTON*/
+    height: 53px;                       /* BOUTTON RECHERCHER*/
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#0065fc;
@@ -127,4 +131,81 @@ justify-content: center;
 {
     cursor: pointer;
     font-size: 17px;
+}
+#filtres
+{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+}
+.bordfiltre
+{
+    display: flex;
+    border: 2px solid #d9d9d9;
+    border-radius: 0px 30px 30px 0px;
+    border-left: none;
+    height: 46px;
+    
+}
+#filtres div input:hover
+{
+    color:#0065fc;
+    font-size: 22px;
+    
+}
+
+.logfiltres
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+    color: #0065fc;
+    border:none;
+    position: relative;
+    left: 30px;
+}
+#filtres h4
+{
+    align-self: center;
+    font-size: 18.5px;
+}
+.filterbuttons
+{
+    
+    align-self: center;
+    height: 46px;
+    border:none;
+    background-color:transparent;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#info
+{
+    display: flex;
+    justify-content: space-between;
+    width: 446px;
+    margin-top: 35px;
+}
+#info div 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;
+    width: 25px;
+    height:25px;
+    border:1px solid #d9d9d9;
+    border-radius: 20px;
+}
+#info p
+{
+    align-self: center;
+    font-size: 15.5px;
 }
