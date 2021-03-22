@@ -14,8 +14,9 @@ h1
 /* Conteneur du header */
 .container
 {
-    margin-left: 50px;
-    margin-right: 53px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    
 }
 
 /* HEADER */
@@ -148,12 +149,7 @@ justify-content: center;
     height: 46px;
     
 }
-.filtres div input:hover
-{
-    color:#0065fc;
-    font-size: 22px;
-    
-}
+
 
 .logfiltres
 {
@@ -215,6 +211,7 @@ justify-content: center;
 /* HEBERGEMENTS*/
 #hebergements
 {
+    display: flex;
     margin-top: 37px;
 }
 
@@ -257,6 +254,7 @@ justify-content: center;
    
     
 }
+
 .legendeheb
 {
     margin-top: 12px;
@@ -327,11 +325,267 @@ justify-content: center;
     display: inline-block;
     font-size: 19px;
 }
+.divpopu
+{
+    
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 345px;
+    height: 548px;
+    padding:42px 38px 30px 38px;
+    margin-left: 40px;
+}
+.titrepopu
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.titrepopu h1, .titrepopu i
+{
+    font-size: 22.5px;
+}
+.hebergementspopu
+{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 498px;
+}
+
+.popisole
+{
+    text-decoration: none;
+    color: black;
+    width: 338px ;
+    height: 134px;
+    padding:5px 0px 5px 5px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px  #d9d9d9;
+    display: flex;
+}
+
+.ImPop
+{
+    
+    width: 127px;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+.PosImPop
+{
+    height: 144px;
+    width: 132px;
+    object-fit: cover;
+    position:relative;
+    right: 6px;
+}
+.legendepop
+{
+    margin : 14px 0px 9px 21px;
+    width: 145px;
+    height: 115px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    height: 111px;
+}
+.legendepop h4
+{
+    font-size: 16.5px;
+    
+    
+}
+.legendepop p
+{
+    margin-top: 5px;
+    font-size: 13.5px;
+    margin-bottom: 35px;
+    
+    
+    
+    
+}
+.legendepop div
+{
+    font-size: 11px;
+    
+    
+    
+}
+
+
+
+/*********ACTIVITIES************/
+
+
+#activities
+{
+    margin-top: 65px;
+}
+#activities h1
+{
+    font-size: 22.5px;
+    
+}
+.divActivities
+{
+    width: 1337px;
+    height: 445px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.divActivities a
+{
+    text-decoration: none;
+    color: black;
+
+    
+}
+.act1,.act4
+{
+    width: 302px;
+    height: 446px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #e3e3e3;
+}
+.ImActBig
+{
+    
+    height: 391px;
+    overflow: hidden;
+    border-radius:20px 20px 0px 0px ;
+}
+.PosImActBig
+{
+    width: 302px;
+    height: 446px;
+    object-fit: cover;
+     
+    
+}
+.divActivities h4
+{
+    margin-top: 18px;
+    margin-left: 18px;
+    font-size: 16.5px;
+    
+}
+.act2-3, .act5-6
+{
+    width: 302px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.a2
+{
+    height: 238px;
+    width: 302px;
+    box-shadow: 0px 0px 15px #e3e3e3;
+    border-radius: 20px;
+}
+
+.ImAct2
+{
+    
+    height: 182px;
+    overflow: hidden;
+    border-radius:20px 20px 0px 0px ;
+}
+.PosImAct2
+{
+    width: 303px;
+    height: 238px;
+    object-fit: cover;
+    
+  
+    
+}
+.a3
+{
+    height: 164px;
+    width: 302px;
+    box-shadow: 0px 0px 15px #e3e3e3;
+    border-radius: 20px;
+}
+.ImAct3
+{
+    
+    height: 109px;
+    overflow: hidden;
+    border-radius:20px 20px 0px 0px ;
+}
+.PosImAct3
+{
+    width: 303px;
+    height: 164px;
+    object-fit: cover;
+    
+  
+    
+}
+.a5
+{
+    height: 197px;
+    width: 302px;
+    box-shadow: 0px 0px 15px #e3e3e3;
+    border-radius: 20px;
+}
+.ImAct5
+{
+    
+    height: 142px;
+    overflow: hidden;
+    border-radius:20px 20px 0px 0px ;
+}
+.PosImAct5
+{
+    width: 303px;
+    height: 197px;
+    object-fit: cover;
+    
+    
+    
+}
+.a6
+{
+    height: 209px;
+    width: 302px;
+    box-shadow: 0px 0px 15px #e3e3e3;
+    border-radius: 20px;
+}
+.ImAct6
+{
+    
+    height: 153px;
+    overflow: hidden;
+    border-radius:20px 20px 0px 0px ;
+}
+.PosImAct6
+{
+    width: 353px;
+    height: 209px;
+    object-fit: cover;
+    
+   
+}
+
 
 /* FOOTER */
 
 footer
 {
+    
     background-color: #F2F2F2;
     height: 118px;
     margin-top: 53px;
@@ -367,4 +621,18 @@ footer ul li a:hover
 {
     font-weight: bold;
     
+}
+
+
+/***** Animation *****/
+.filtres div input:hover 
+{
+    color:#0065fc;
+    transform: scale(1.05);
+    
+}
+.a2:hover , .a3:hover ,.a5:hover,.a6:hover, .act1:hover,.act4:hover , .popisole:hover , .lieuisole:hover
+{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px gray;
 }
