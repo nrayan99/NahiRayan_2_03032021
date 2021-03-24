@@ -7,8 +7,9 @@
 }
 h1
 {
-    font-size: 22px;
+    font-size: 22.3px;
 }
+
 
 
 /* Conteneur du header */
@@ -28,15 +29,24 @@ header
     margin-top: 49px;
     
 }
+.logoreservia
+{
+    height: 45px;
+    width: 97px;
+}
+nav
+{
+    margin-left: auto;
+}
 
 header nav ul
 {   
-    width: 447px;
+   
     padding:0%;
     list-style: none;
     
     display: flex;
-    justify-content: space-between;
+    
 }
 
 header nav ul li a
@@ -50,11 +60,13 @@ header nav ul li a
     
     
 }
-header nav ul li:nth-child(3) a 
+.sign
 {
+    text-decoration: none;
     color: #0065fc;;
     font-weight: bold;
-    padding-right: 24px;
+    margin-left: 33.5px;
+    
     
     
 }
@@ -116,7 +128,7 @@ justify-content: center;
 }
    
 
-.champ div:nth-of-type(3) input
+.champ div:nth-of-type(3) button
 {
     width: 135px;
     height: 53px;                       /* BOUTTON RECHERCHER*/
@@ -128,10 +140,14 @@ justify-content: center;
     font-size: 16px;
     border:1px solid #F2F2F2;
 }
-.champ div:nth-of-type(3) input:hover
+.champ div:nth-of-type(3) button:hover
 {
     cursor: pointer;
     font-size: 17px;
+}
+.searchlog
+{
+    display: none;
 }
 .filtres
 {
@@ -140,11 +156,12 @@ justify-content: center;
     justify-content: space-between;
     width: 930px;
 }
+
 .bordfiltre
 {
     display: flex;
     border: 2px solid #d9d9d9;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 40px;
     border-left: none;
     height: 46px;
     
@@ -167,8 +184,11 @@ justify-content: center;
     color: #0065fc;
     border:none;
     position: relative;
-    left: 22px;
+    bottom: 2px;
+    
 }
+
+
 .ContainerFilters
 {   
     display:flex;
@@ -178,6 +198,7 @@ justify-content: center;
 .ContainerFilters h4
 {
    font-size: 18.5px; 
+   margin-right: 32px;
 }
 
 .filterbuttons
@@ -187,7 +208,7 @@ justify-content: center;
     height: 46px;
     border:none;
     background-color:transparent;
-    padding-left: 30px;
+    padding-left: 5px;
     padding-right: 20px;
     font-weight: bold;
     font-size: 18px;
@@ -195,8 +216,8 @@ justify-content: center;
 .info
 {
     display: flex;
-    justify-content: space-between;
-    width: 446px;
+    
+    max-width: 446px;
     margin-top: 35px;
 }
 .info div 
@@ -214,6 +235,7 @@ justify-content: center;
 {
     align-self: center;
     font-size: 15.5px;
+    margin-left: 12px;
 }
 
 
@@ -333,7 +355,7 @@ justify-content: center;
 {
     margin-top: 40px;
     cursor: pointer;
-    display: inline-block;
+    
     font-size: 19px;
 }
 .divpopu
@@ -793,12 +815,329 @@ footer ul li a:hover
         width: 530px;
         margin: 20px auto 0px auto;
     }
-    .affich
-    {
-        align-self: flex-end;
-    }
+   
     #activities h1 
     {
         width: 595px;
     }
+
+}
+
+/******** MAX WIDTH 720px ( MOBILE) *****/
+@media screen and (max-width:720px)
+{
+    /******** RESPONSIVE HEADER *******/
+    header
+    {
+        height: 120px;
+        margin-top: 0px;
+
+    }
+    .logoreservia
+    {
+        height: 45px;
+        margin-left: 3.5%;
+        
+    }
+    nav 
+    {
+        margin-top: 30px;
+        height: 45px;
+        align-self: flex-end;
+        width: 100%;
+        position: absolute;
+    }
+    header li 
+    {
+        width: 50%;
+        text-align: center;
+        
+        
+        
+        
+    }
+    header nav ul li a 
+    {
+        display: block;
+        width: 100%;
+        border-bottom: 3px solid #F2F2F2;
+        padding:0px;
+        padding-bottom: 12px;
+    }
+    header nav ul li a:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .sign
+    {
+        height: 45px;
+        margin-right: 3.5%;
+        align-self: center;
+        margin-bottom: 45px;
+    }
+    #recherche
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /********** RESPONSIVE CHAMP **********/
+    .champ
+    {
+        margin-left:20px ;
+    }
+    button
+    {
+        
+        position:relative;
+        right: 20px;
+        bottom: 1px;
+    }
+    button p
+    {
+        display: none;
+    }
+    .searchlog
+    {
+        display: block;
+    }
+    .champ div:nth-of-type(3) button
+    {
+        width: 51px;
+        border-radius: 15px;
+        
+    }
+    
+    .h1recherche1,.precherche1
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /***** RESPONSIVE FILTRE********/
+    
+
+    .ContainerFilters
+    {
+        flex-direction: column;
+        margin-top: 42px;
+    }
+    .ContainerFilters h4
+    {
+        margin-left: 22px;
+    }
+    .filtres
+    {
+        margin-top: 18px;
+        width: 330px;
+        margin-left: 22px;
+    }
+
+
+
+    /************** RESPONSIVE POPULAIRE*******/
+   
+    .container
+    {
+        margin: 0px;
+    }
+    
+    .divpopu
+    {
+        height: 580px;
+        width: 100%;
+        border-radius: 0px;
+        padding:0;
+    }
+    .popisole
+    {
+        text-decoration: none;
+        color: black;
+        width: 338px ;
+        height: 134px;
+        padding:5px 0px 5px 5px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px  #d9d9d9;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .ImPop
+    {
+        height: auto;
+        width: 127px;
+        overflow: hidden;
+        border-radius: 20px 0px 0px 20px;
+        
+    }
+    .PosImPop
+    {
+        height: 144px;
+        width: 132px;
+        object-fit: cover;
+        position:relative;
+        right: 6px;
+    }
+    .legendepop
+    {
+        margin : 14px 0px 9px 21px;
+        width: 145px;
+        height: 115px;
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+       
+    }
+    .hebergementspopu
+    {
+        height: 450px;
+        margin: 26px auto 35px auto;
+        width: 336px;
+    }
+    .legendepop h4
+    {
+        font-size: 16.5px;
+    
+    
+    }
+    .legendepop p
+    {
+        margin-top: 5px;
+        font-size: 13.5px;
+        margin-bottom: 35px;
+        
+        
+        
+        
+    }
+    .legendepop div
+    {
+        font-size: 11px;
+        
+        
+        
+    }
+    .titrepopu
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 42px;
+    }
+    /************** RESPONSIVE HEBERGEMENTS*******/
+    .divhebergements
+    {
+        width: 100%;
+        background-color: transparent;
+        height: 1368px;
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+    .divhebergements h1
+    {
+        margin-left: 21px;
+    }
+    .affich
+    {
+        margin-left: 21px;
+    }
+    .lieuxhebergements
+    {
+        height: 1255px;
+        width: 337px;
+    }
+    .lieuisole
+    {
+        width: 335px ;
+    }
+    .ImHeb
+    {
+        height: 114px;
+        overflow: hidden;
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+    .PosImHeb
+    {
+        height: 114px;
+        width: 345px;
+        object-fit: cover;
+        position:relative;
+        right: 6px;
+    }
+
+
+    /******  RESPONSIVE ACTIVITES A MARSEILLES *****/
+    #activities h1
+    {
+        margin: 0px 0px 30px 22px ;
+    }
+    #activities
+    {
+        width: 100%;
+    }
+    .divActivities
+    {
+        height: 1258px;
+        width: 335px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .ImActBig , .ImAct2 , .ImAct3 , .ImAct5 , .ImAct6
+    {
+        height: 134px;
+    }
+    .PosImActBig , .PosImAct2 , .PosImAct3 , .PosImAct5 , .PosImAct6
+    {
+        width: 335px;
+        height: 190px;
+    }
+    .act1 , .a2 ,.a3, .act4 , .a5, .a6
+    {
+        height: 190px;
+        width: 335px;
+    }
+    .act5-6, .act2-3
+    {
+        height: 403px;
+        
+    }
+
+
+    footer
+    {
+        margin: 48px 0px 0px 0px;
+        flex-direction: column;
+        height: 486px;
+        padding: 0px;
+
+
+    }
+    .apropos
+    {
+        margin-top: 49px ;
+        margin-left: 7.73%;
+    }
+    .noshebergements
+    {
+        margin-top: 40px;
+        margin-left: 7.73%;
+        
+    }
+    .assistance
+    {
+        margin-top: 45px;
+        margin-left: 7.73%;
+
+    }
+
+
 }

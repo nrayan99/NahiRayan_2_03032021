@@ -20,15 +20,17 @@
 <body>
     <div class="container">
         <header>
-            <img src="assets/images/logo/Reservia.svg" alt="logo">
-            <nav>
-                <ul>
-                    <li> <a href="#hebergements">Hébergements</a></li>
-                    <li> <a href="#activities">Activités</a></li>
-                    <li> <a href="#">S'inscrire</a></li>
-                </ul>
-            </nav>
-
+            <div class="logoreservia"><img src="assets/images/logo/Reservia.svg" alt="logo"></div>
+            
+                <nav>
+                    <ul>
+                        <li> <a href="#hebergements">Hébergements</a></li>
+                        <li> <a href="#activities">Activités</a></li>
+                    
+                    </ul>
+                </nav>
+                <a class="sign" href="#">S'inscrire</a>
+            
         </header>
 
         <section id="recherche">
@@ -47,7 +49,8 @@
                 </div>
                 
                 <div>
-                    <input type="button" value="Rechercher">
+                    <button type="submit" ><p>Rechercher</p> <i class="fas fa-search searchlog"></i></button>
+                    
                 </div>
 
                 
@@ -58,41 +61,39 @@
                 <div class="filtres">
                 
                         <div class="PosFilter" >
-                            <div class="logfiltres">
-                                <i class="fas fa-money-bill-wave"></i>
-                            </div>
+                            
+                                
+                           
                             <div class="bordfiltre">
-                        
+                            <i class="fas fa-money-bill-wave logfiltres"></i>
                                 <input type="button" value="Economique" class="filterbuttons">
                     
                             </div>
                         </div>
                         <div class="PosFilter" >
-                            <div class="logfiltres">
-                                <i class="fas fa-child"></i>
-                            </div>
+                            
+                                
+                            
                             <div class="bordfiltre">
-                        
+                                <i class="fas fa-child logfiltres"></i>
                                 <input type="button" value="Familial" class="filterbuttons">
                     
                             </div>
                         </div>
                         <div class="PosFilter" >
-                            <div class="logfiltres">
-                                <i class="fas fa-heart"></i>
-                            </div>
+                            
                             <div class="bordfiltre">
-                        
+                                <i class="fas fa-heart logfiltres"></i>
                                 <input type="button" value="Romantique" class="filterbuttons">
                     
                             </div>
                         </div>
                         <div class="PosFilter" >
-                            <div class="logfiltres">
-                                <i class="fas fa-dog"></i>
-                            </div>
+                            
+                                
+                            
                             <div class="bordfiltre">
-                        
+                                <i class="fas fa-dog logfiltres"></i>
                                 <input type="button" value="Animaux autorisés" class="filterbuttons">
                     
                             </div>
@@ -218,7 +219,7 @@
                         </div>
                     </a>
                 </div>
-                <strong class="affich">Afficher plus</strong>
+                <p class="affich"><strong >Afficher plus</strong></p>
             </div>
             <div class="divpopu">
                 <div class="titrepopu">
@@ -394,7 +395,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="assistance">
         <h4>Assistance</h4>
         <ul>
             <li><a href="#">Centre d'aide</a></li>
