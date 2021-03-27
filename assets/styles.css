@@ -765,6 +765,11 @@ footer ul li a:hover
         flex-wrap: wrap;
         margin: 0 auto;
     }
+    #activities
+    {
+        width: 807px;
+        margin : 65px auto 0px auto;
+    }
     #activities h1
     {   
         
@@ -794,6 +799,7 @@ footer ul li a:hover
         margin-top: 5px;
         
     }
+    
 
 
 }
@@ -840,6 +846,10 @@ footer ul li a:hover
     .act1,.act4,.PosImActBig,.act2-3,.act5-6,.a2,.PosImAct2,.a3,.PosImAct3,.a5,.PosImAct5,.a6,.PosImAct6
     {
         width: 302px;
+    }
+    #activities
+    {
+        width: 650px;
     }
     
 
