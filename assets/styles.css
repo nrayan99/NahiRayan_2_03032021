@@ -125,7 +125,7 @@ justify-content: center;
     display: flex;
     margin-top: 17px;
 }
-.search-box div:nth-of-type(2) input 
+.search-box input 
 {
     font-weight: bold;                  /* CHAMP TEXT */
     width: 234px;
@@ -137,7 +137,7 @@ justify-content: center;
 }
    
 
-.search-box div:nth-of-type(3) button
+.search-box button
 {
     width: 135px;
     height: 53px;                       /* BOUTTON RECHERCHER*/
@@ -149,7 +149,7 @@ justify-content: center;
     font-size: 16px;
     border:1px solid #F2F2F2;
 }
-.search-box div:nth-of-type(3) button:hover
+.search-box button:hover
 {
     cursor: pointer;
     font-size: 17px;
@@ -238,7 +238,7 @@ justify-content: center;
     max-width: 446px;
     margin-top: 35px;
 }
-.info div 
+.info i 
 {
     display: flex;
     align-items: center;
@@ -960,15 +960,12 @@ footer ul li a:hover
     {
         display: block;
     }
-    .search-box div:nth-of-type(2)
+    .search-box input
     {
         width: 67%;
     }
-    .search-box div:nth-of-type(2) input
-    {
-        width: 100%;
-    }
-    .search-box div:nth-of-type(3) button
+
+    .search-box button
     {
         width: 51px;
         border-radius: 15px;
@@ -1010,7 +1007,7 @@ footer ul li a:hover
         margin-left: 22px;
         
     }
-    .info div 
+    .info i 
     {
         min-height: 27px;
         min-width: 27px;
