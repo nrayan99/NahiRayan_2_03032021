@@ -183,11 +183,7 @@ justify-content: center;
     
 }
 
-.pos-filters
-{
-    display: flex;
-   
-}
+
 .logo-filters
 {
     display: flex;
@@ -827,7 +823,7 @@ footer ul li a:hover
         width: 700px;
         flex-wrap: wrap;
     }
-    .pos-filters
+    .border-filters
     {
         margin-top: 5px;
         
@@ -1005,7 +1001,7 @@ footer ul li a:hover
         margin-left: 22px;
         justify-content: initial;
     }
-    .pos-filters
+    .border-filters
     {
         margin-right: 5px;
     }
