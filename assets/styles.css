@@ -68,12 +68,13 @@ header nav ul li a
 
 
 
-.active
+header nav ul li  .active
 {
     
-    border-top: 3px solid;
+    border-top: 3px solid  ;
     
-    border-top-color:  #0065fc;
+    
+    border-top-color:  #0065fc ;
 }
 
 header nav ul li a:hover
@@ -951,7 +952,7 @@ footer ul li a:hover
         padding:0px;
         padding-bottom: 12px;
     }
-    .active
+    header nav ul li  .active
     {
         border-top: none;
         border-bottom: 3px solid #0065fc;
