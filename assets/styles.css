@@ -68,6 +68,13 @@ header nav ul li a
 
 
 
+.active
+{
+    
+    border-top: 3px solid;
+    
+    border-top-color:  #0065fc;
+}
 
 header nav ul li a:hover
 {
@@ -75,6 +82,7 @@ header nav ul li a:hover
     border-top: 3px solid;
     
     border-top-color:  #0065fc;
+    
 }
 
 /***** LIEN S'INSCRIRE****/
@@ -942,6 +950,11 @@ footer ul li a:hover
         border-bottom: 3px solid #F2F2F2;
         padding:0px;
         padding-bottom: 12px;
+    }
+    .active
+    {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
     }
     header nav ul li a:hover
     {
